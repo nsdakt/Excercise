@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.header {
+  width: 100%; /* 横幅いっぱい */
+  height: 70px; /* 高さ70px */
+  background-color: red; /* 背景色red */
+}
+
+.navigation {
+  width: 960px; /* 横幅960px */
+  height: 70px; /* 高さ70px */
+  margin: 0 auto; /* 中央寄せ */
+  background-color: hotpink; /* 背景色hotpink */
+}
+
+.logo {
+  width: 120px;
+  height: 70px;
+  float: left;
+  background-color: darkviolet;
+}
+
+.navigation-list {
+  width: 560px;
+  height: 70px;
+  float: right;
+  background-color: pink;
+}
+
+.main-visual {
+  width: 100%; /* 横幅いっぱい */
+  height: 650px; /* 高さ650px */
+  background-color: orange; /* 背景色orange */
+}
+
+.main {
+  width: 100%; /* 横幅いっぱい */
+  height: 1000px; /* 高さ1000px */
+  background-color: green; /* 背景色green */
+}
+
+.footer {
+  width: 100%; /* 横幅いっぱい */
+  height: 60px; /* 高さ60px */
+  background-color: blue; /* 背景色blue */
+}
