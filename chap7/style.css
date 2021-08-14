@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual {
+  height: 400px;
+  width: 100%;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.headline {
+  padding: 20px; /* 上下左右全てに指定されてok */
+}
+
+main {
+  width: 840px;
+  margin: 50px auto;
+}
+
+.service1 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.service2 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.service3 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.service4 {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+/*
+a {
+  color: rgb(116, 116, 116);
+}
+
+.main-visual {
+  height: 400px;   +width:100%;
+  background-image: url(img/mv.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-visual-heading {
+  color: rgb(116, 116, 116);
+  padding: 20px 0 0 20px;
+}
+
+.contents {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contents-box {
+  width: 840px;
+  padding: 30px 0;  .contentsでmargin50pxを設定しているのでwebcanpの上部の余白だけ80pxになってしまう
+  margin: 0 auto;
+  border-bottom: 1px solid #d8d8d8;
+  display: inline-block;
+}
+*/
